@@ -46,7 +46,7 @@ def generate_answer(query, question, result):
     return response.content
 
 # Configuración de la interfaz en Streamlit
-st.title("🔍 Chat Geológico con Ollama")
+st.title("🔍 Chat Geológico con Streamlit")
 st.write("Escribe tu consulta sobre geología y obtén resultados desde la base de datos.")
 
 # Entrada del usuario
